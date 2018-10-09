@@ -1,4 +1,4 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -6,17 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Psychic Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <script src="game.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="assets/javascript/game.js"></script>
 </head>
 
 <body>
-    <h1>The Psychic Game</h1>
-    <p>Guess what letter I'm thinking of</p>
-    <p>Wins:</p>
-    <p>Losses:</p>
-    <p>Guesses left:</p>
-    <p>Your guesses so far:</p>
+    <div id="game">
+        <h1>The Psychic Game</h1>
+        <p>Guess what letter I'm thinking of</p>
+        <p>Wins: <span id="userWinsD"></span></p>
+        <p>Losses: <span id="userLossesD"></span></p>
+        <p>Guesses left: <span id="userRemainderD"></span></p>
+        <p>Your guesses so far: <span id="userTriesD"></span></p>
+    </div>
     
 </body>
 
