@@ -14,6 +14,7 @@ var computerGuess = [];
 //intial computer letter//
 window.onload = function() {
     var compGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
+    //computerGuess.push is adding the random guess created by var compGuess to the array computerGuess//
     computerGuess.push(compGuess);
     console.log(computerGuess[0]);
 }
@@ -28,6 +29,7 @@ document.onkeyup = function(event) {
         userWins++;
         guessesRemaining = 9;
         userTries.length = 0;
+        computerGuess.length = 0;
         var compGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
         computerGuess.push(compGuess);
         console.log(computerGuess[0]);
