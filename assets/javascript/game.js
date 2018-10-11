@@ -22,7 +22,7 @@ window.onload = function() {
 document.onkeyup = function(event) {
     var playerGuess = event.key;
     userTries.push(playerGuess);
-    console.log(computerGuess[0]);
+    console.log(playerGuess[0]);
 
     if ((playerGuess === computerGuess[0]) && (guessesRemaining > 0)) {
         userWins++;
@@ -47,7 +47,8 @@ document.onkeyup = function(event) {
         console.log(computerGuess[0]);
     }
 
-    var html = "<p>Guess what letter I'm thinking of</p>" +
+    var html = "<h1><strong>The Psychic Game</strong></h1>" +
+                "<p>Guess what letter I'm thinking of</p>" +
                 "<p>Wins: " + userWins + "</p>" +
                 "<p>Losses: " + userLosses + "</p>" +
                 "<p>Guesses left: " + guessesRemaining + "</p>" +
