@@ -25,6 +25,8 @@ document.onkeyup = function(event) {
     userTries.push(playerGuess);
     console.log(playerGuess[0]);
 
+//if the player guesses the same as the computer, a win will be added and the guesses go back to 9 tries.//
+//the random computer guess is also ran again and pushed into the computerGuess array.//
     if ((playerGuess === computerGuess[0]) && (guessesRemaining > 0)) {
         userWins++;
         guessesRemaining = 9;

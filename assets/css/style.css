@@ -1,23 +1,28 @@
 #game, h1 {
-    -webkit-text-fill-color: purple;
+    -webkit-text-fill-color: lightcyan;
     text-align: center;
     font-family: 'Bungee Shade', cursive;
+    font-size: xx-large;
+    margin-top: 10%;
 }
 
 p {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+    font-size: x-large;
 }
 
 body, html {
     background: lightgray;
     width: 100%;
     height: 100%;
+    background-image: url(http://hdwpro.com/wp-content/uploads/2017/10/Black-Space-Background-1366x768.jpg);
 }
 
 .container {
     background: lightgray;
     width: 100%;
     height: 100%;
+    background-image: url(http://hdwpro.com/wp-content/uploads/2017/10/Black-Space-Background-1366x768.jpg);
     overflow: hidden;
 }
