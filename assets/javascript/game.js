@@ -23,6 +23,7 @@ window.onload = function() {
 document.onkeyup = function(event) {
     var playerGuess = event.key;
     userTries.push(playerGuess);
+    console.log(event);
     console.log(playerGuess[0]);
 
 //if the player guesses the same as the computer, a win will be added and the guesses go back to 9 tries.//
